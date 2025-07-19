@@ -1,5 +1,7 @@
+import Gallery from "@/components/Layouts/Gallery";
 import HeroBanner from "@/components/Layouts/HeroBanner";
 import MessageOneSection from "@/components/Layouts/MessageBoxOne";
+import { GalleryItemsSection } from "@/contants";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <HeroBanner />
       {/* ------------ MessageBoxOne ------------ */}
       <MessageOneSection />
+      {/* ------------ Gallery Section ------------ */}
+      <Gallery card={GalleryItemsSection} />
     </main>
   );
 }

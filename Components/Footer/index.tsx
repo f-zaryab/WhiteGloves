@@ -5,7 +5,7 @@ import { footer } from "@/contants";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center bg-primary rounded-2xl max-w-[98%] mx-auto">
+    <footer className="flex justify-center items-center bg-primary rounded-2xl max-w-[98%] mx-auto mb-4">
       <div className="max-w-[1440px] mx-auto p-8">
         <p className="text-white text-4xl tracking-wider mb-6 text-center">
           {footer.title}

@@ -3,8 +3,8 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <section className="p-12 bg-white w-full h-full">
-      <div className="rounded-4xl overflow-hidden mx-auto h-[50rem]">
+    <section className="bg-white w-full h-full">
+      <div className="overflow-hidden mx-auto h-[50rem]">
         <Image
           src="/temp_images/herobanner_01.png"
           alt="her-banner_01"

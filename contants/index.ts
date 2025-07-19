@@ -14,3 +14,46 @@ export const footer = {
 export const MessageOneSectionText = {
   message: `"We Lift More Than Just Boxes — We Lift Stress."`,
 };
+
+export const GalleryItemsSection = [
+  {
+    id: "1",
+    title: "Best website collections",
+    imageUrl: "/temp_images/gal_01.png",
+  },
+  {
+    id: "2",
+    title: "Block of UI kit collections",
+    imageUrl: "/temp_images/gal_02.png",
+  },
+  {
+    id: "3",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_03.png",
+  },
+  {
+    id: "4",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_04.png",
+  },
+  {
+    id: "5",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_05.png",
+  },
+  {
+    id: "6",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_06.png",
+  },
+  {
+    id: "7",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_07.png",
+  },
+  {
+    id: "8",
+    title: "Ton’s of mobile mockup",
+    imageUrl: "/temp_images/gal_08.jpeg",
+  },
+];
