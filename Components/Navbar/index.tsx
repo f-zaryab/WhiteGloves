@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -10,9 +11,20 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center h-14 fixed top-4">
+    <div className="w-full flex justify-between items-center h-14 fixed top-8 z-50">
       <div className="hidden sm:flex w-full justify-between items-center max-w-[1440px] mx-auto">
-        <NavigationMenu className="ml-auto bg-secondary px-4 py-2 rounded-3xl">
+        <NavigationMenu className="flex justify-between h-16 px-4 py-2 bg-white/40 max-w-[100%] backdrop-blur-3xl rounded-4xl">
+          <Link href="/">
+            <Image
+              src="/temp_images/logo_01.png"
+              alt="logo"
+              width={110}
+              height={110}
+              className="object-cover block object-center drop-shadow-xl/50"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </Link>
+
           <NavigationMenuList className="flex items-center gap-4">
             {/* About Us */}
             <NavigationMenuItem>
