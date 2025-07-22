@@ -28,6 +28,67 @@ export const HeroBannerText = [
   },
 ];
 
+export const WhyChooseText = {
+  preTitle: "WHY CHOOSE US?",
+  title: "Because You Deserve a Moving Experience Without the Headaches",
+  cards: [
+    {
+      id: "01",
+      title: "Trusted & Experienced Crew",
+      description:
+        "Our professional movers treat your belongings like their own—with care and precision.",
+      img: {
+        src: "/temp_images/why_01.jpg",
+        alt: "Trusted & Experienced Crew",
+      },
+    },
+    {
+      id: "02",
+      title: "Affordable, Transparent",
+      description:
+        "No hidden fees. No last-minute surprises. Just honest rates tailored to your needs.",
+      img: {
+        src: "/temp_images/why_01.jpg",
+        alt: "Trusted & Experienced Crew",
+      },
+    },
+    {
+      id: "03",
+      title: "Tailored to You",
+      description:
+        "From packing and disassembly to storage and setup, we customize every move to suit your lifestyle.",
+      img: {
+        src: "/temp_images/why_01.jpg",
+        alt: "Trusted & Experienced Crew",
+      },
+    },
+  ],
+};
+
+export const FAQText = {
+  preTitle: "FAQs",
+  title: "Got Questions? We’ve Got You Covered.",
+  faq: [
+    {
+      id: "01",
+      question: "How far in advance should I book my move?",
+      answer:
+        "Ideally, 2-4 weeks in advance, especially during peak seasons. But we do accommodate last-minute moves whenever possible!",
+    },
+    {
+      id: "02",
+      question: "Can you help with packing and unpacking?",
+      answer:
+        "Yes our team of experts take full responsibility of packing and unpacking.",
+    },
+    {
+      id: "03",
+      question: "Do you offer long-distance moving?",
+      answer: "Yes we do.",
+    },
+  ],
+};
+
 export const footer = {
   title: "White Gloves",
   subtitle: "Copyright © White Gloves | Designed by CodeBeCrafted",

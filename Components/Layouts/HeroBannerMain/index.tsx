@@ -47,6 +47,7 @@ const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
                     height={0}
                     className="h-auto w-full object-cover block object-center opacity-90 mask-radial-farthest-side mask-radial-from-100% mask-radial-at-[80%_15%]"
                     sizes="(max-width: 768px) 100vw, 33vw"
+                    priority
                   />
                 </div>
               </div>
