@@ -1,3 +1,21 @@
+export const SiteDate = {
+  homepage: {
+    title: "WhiteGloves",
+    href: "/",
+    logo: "",
+    description: "Best movers at your doorstep",
+    page: "Home Page | WhiteGloves",
+    keyword: ["keyword1", "keyword2", "keyword3", "keyword4"],
+  },
+  about: {
+    title: "WhiteGloves",
+    href: "/about",
+    logo: "",
+    description: "Best movers in town",
+    page: "About Page",
+  },
+};
+
 export const HeroBannerText = [
   {
     id: "01",

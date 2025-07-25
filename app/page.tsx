@@ -11,9 +11,15 @@ import {
   FAQText,
   TestimonialText,
   ProcessText,
+  SiteDate,
 } from "@/contants";
 import ContactUs from "@/components/Layouts/ContactUs";
 import Process from "@/components/Layouts/Process";
+
+export const metadata = {
+  title: SiteDate.homepage.page,
+  description: SiteDate.homepage.description,
+};
 
 export default function Home() {
   return (
