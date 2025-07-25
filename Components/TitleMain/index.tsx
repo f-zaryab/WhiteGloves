@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import { FaDotCircle } from "react-icons/fa";
+import AnimatedTitle from "../client/AnimatedTitle";
 
 type TitleMainProps = {
   preTitle: string;
@@ -25,15 +26,7 @@ const TitleMain = ({
         <FaDotCircle className="text-secondary" />
         {preTitle}
       </span>
-      <h2
-        className={cn(
-          `${
-            isSideHeading ? "w-full md:w-full" : "w-full sm:w-3/4 md:w-2/3"
-          } text-5xl font-normal text-primary mb-16`
-        )}
-      >
-        {title}
-      </h2>
+      <AnimatedTitle isSideHeading={isSideHeading}>{title}</AnimatedTitle>
     </div>
   );
 };

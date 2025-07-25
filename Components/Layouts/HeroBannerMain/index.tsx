@@ -1,10 +1,14 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { TextEffect } from "@/components/motion-primitives/text-effect";
 
 type HeroBannerMainProps = {
   carouselItems: {
@@ -21,20 +25,42 @@ type HeroBannerMainProps = {
 const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
   return (
     <div>
-      <Carousel className="relative">
+      <Carousel
+        className="relative bg-primary"
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        plugins={[
+          Autoplay({
+            delay: 3050,
+          }),
+        ]}
+      >
         <CarouselContent>
           {carouselItems.map((item) => (
             <CarouselItem key={item.id} className="w-full h-full relative">
               <div className="flex flex-col justify-start items-center">
                 {/* Text block */}
-                <div className="absolute bottom-0 left-0 z-10 w-[50%] bg-white/5 backdrop-blur-md rounded-tr-[25rem]">
-                  <div className="py-4 px-24">
-                    <h1 className="text-white text-6xl font-semibold">
+                <div className="absolute bottom-0 left-0 z-10 w-[97%] md:w-[50%] bg-white/5 backdrop-blur-md rounded-tr-[25rem]">
+                  <div className="py-4 px-12 md:px-24">
+                    <TextEffect
+                      as="h1"
+                      per="char"
+                      preset="fade"
+                      className="text-white text-5xl md:text-6xl leading-12 md:leading-16 font-semibold"
+                    >
                       {item.title}
-                    </h1>
-                    <h2 className="text-secondary/80 text-3xl font-medium">
+                    </TextEffect>
+                    <TextEffect
+                      per="word"
+                      preset="blur"
+                      as="h2"
+                      delay={1}
+                      className="text-secondary/80 text-2xl md:text-3xl font-medium"
+                    >
                       {item.subTitle}
-                    </h2>
+                    </TextEffect>
                   </div>
                 </div>
 
@@ -45,7 +71,7 @@ const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
                     alt={item.img.alt}
                     width={0}
                     height={0}
-                    className="h-auto w-full object-cover block object-center opacity-90 mask-radial-farthest-side mask-radial-from-100% mask-radial-at-[80%_15%]"
+                    className="h-full lg:h-auto w-full object-cover block object-center opacity-90 mask-radial-farthest-side mask-radial-from-100% mask-radial-at-[80%_15%]"
                     sizes="(max-width: 768px) 100vw, 33vw"
                     priority
                   />

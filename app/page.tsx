@@ -3,11 +3,13 @@ import WhyChooseUs from "@/components/Layouts/WhyChoose";
 import MessageOneSection from "@/components/Layouts/MessageBoxOne";
 import Gallery from "@/components/Layouts/Gallery";
 import FAQS from "@/components/Layouts/FAQs";
+import Testimonials from "@/components/Layouts/Testimonials";
 import {
   HeroBannerText,
   GalleryItemsSection,
   WhyChooseText,
   FAQText,
+  TestimonialText,
 } from "@/contants";
 
 export default function Home() {
@@ -24,6 +26,9 @@ export default function Home() {
 
       {/* -------------- Gallery Section ----------- */}
       <Gallery card={GalleryItemsSection} />
+
+      {/* ------------ Testimonials Section ----------- */}
+      <Testimonials {...TestimonialText} />
 
       {/* ------------------- FAQS ----------------- */}
       <FAQS {...FAQText} />

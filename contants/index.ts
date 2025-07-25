@@ -89,6 +89,48 @@ export const FAQText = {
   ],
 };
 
+export const TestimonialText = {
+  preTitle: "Testimonials",
+  title: "What people have to say about us?",
+  testimonials: [
+    {
+      id: "01",
+      quote:
+        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
+      name: "XYZ1",
+      title: "housewife",
+    },
+    {
+      id: "02",
+      quote:
+        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
+      name: "XYZ2",
+      title: "housewife",
+    },
+    {
+      id: "03",
+      quote:
+        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
+      name: "XYZ3",
+      title: "housewife",
+    },
+    {
+      id: "04",
+      quote:
+        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
+      name: "XYZ4",
+      title: "housewife",
+    },
+    {
+      id: "05",
+      quote:
+        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
+      name: "XYZ5",
+      title: "housewife",
+    },
+  ],
+};
+
 export const footer = {
   title: "White Gloves",
   subtitle: "Copyright © White Gloves | Designed by CodeBeCrafted",
