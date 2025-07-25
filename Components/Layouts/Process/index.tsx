@@ -6,21 +6,21 @@ import TitleMain from "@/components/TitleMain";
 import CardPrimary from "@/components/CardPrimary";
 
 type CoreValuesProps = {
-  miniTitle: string;
+  preTitle: string;
   title: string;
   cards: {
     id: string;
     title: string;
     content: string;
-    icon: string;
+    icon?: string;
   }[];
   variant: "card-three" | "card-four";
 };
 
-const Process = ({ miniTitle, title, cards, variant }: CoreValuesProps) => {
+const Process = ({ preTitle, title, cards, variant }: CoreValuesProps) => {
   return (
-    <section className="max-w-[1440px] mx-auto p-8 sm:p-16">
-      <TitleMain preTitle={miniTitle} title={title} />
+    <section className="w-full flex flex-col justify-center items-center p-8 md:p-24">
+      <TitleMain preTitle={preTitle} title={title} />
       <AnimatedCardList
         classes={cn(
           variant === "card-three" ? "md:grid-cols-3" : "md:grid-cols-4",
@@ -31,6 +31,7 @@ const Process = ({ miniTitle, title, cards, variant }: CoreValuesProps) => {
           <AnimatedCardWrapper key={item.id + idx}>
             <CardPrimary
               key={item.id + idx}
+              id={(idx + 1).toString()}
               title={item.title}
               content={item.content}
               //   icon={item.icon}

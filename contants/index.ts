@@ -65,6 +65,37 @@ export const WhyChooseText = {
   ],
 };
 
+export const ProcessText = {
+  preTitle: "HOW IT WORKS?",
+  title: "Moving made easy in 4 simple steps",
+  cards: [
+    {
+      id: "01",
+      title: "Get in touch",
+      content:
+        "Reach out via our website or call us directly. We’ll listen to your needs and gather the details of your move.",
+    },
+    {
+      id: "02",
+      title: "Get a Clear Quote",
+      content:
+        "No hidden fees. Just an honest, upfront estimate based on your exact needs.",
+    },
+    {
+      id: "03",
+      title: "Meet Your Moving Team",
+      content:
+        "Our reliable crew shows up on time, ready with all the tools and experience needed.",
+    },
+    {
+      id: "04",
+      title: "Enjoy a Hassle-Free Move",
+      content:
+        "We take care of the heavy lifting, so you can enjoy the excitement of your new space.",
+    },
+  ],
+};
+
 export const FAQText = {
   preTitle: "FAQs",
   title: "Got Questions? We’ve Got You Covered.",

@@ -8,7 +8,7 @@ const MessageOneSection = () => {
       <p className="text-white text-5xl text-center max-w-[38rem] relative">
         {MessageOneSectionText.message}
         <Image
-          src="/vector_01.svg"
+          src="/temp_images/slash_01.svg"
           alt="slash"
           width="160"
           height="160"
