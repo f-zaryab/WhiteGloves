@@ -11,27 +11,31 @@ import {
   FAQText,
   TestimonialText,
 } from "@/contants";
+import ContactUs from "@/components/Layouts/ContactUs";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-items-center h-full min-h-screen pb-20 gap-16 font-[family-name:var(--font-jost)]">
-      {/* ---------------- HeroBanner -------------- */}
+      {/* -------------------- HeroBanner ---------------- */}
       <HeroBannerMain carouselItems={HeroBannerText} />
 
-      {/* --------------- WhyChooseUs -------------- */}
+      {/* ------------------- WhyChooseUs ---------------- */}
       <WhyChooseUs {...WhyChooseText} />
 
-      {/* -------------- MessageBoxOne ------------- */}
-      <MessageOneSection />
-
-      {/* -------------- Gallery Section ----------- */}
+      {/* ------------------ Gallery Section ------------- */}
       <Gallery card={GalleryItemsSection} />
 
-      {/* ------------ Testimonials Section ----------- */}
+      {/* ------------------- MessageBoxOne -------------- */}
+      <MessageOneSection />
+
+      {/* -------------- Testimonials Section ------------ */}
       <Testimonials {...TestimonialText} />
 
-      {/* ------------------- FAQS ----------------- */}
+      {/* ---------------------- FAQS -------------------- */}
       <FAQS {...FAQText} />
+
+      {/* ------------------- Conact form ---------------- */}
+      <ContactUs />
     </main>
   );
 }

@@ -32,7 +32,7 @@ const FAQS = ({ preTitle, title, faq }: FAQsProps) => {
           >
             {faq.map((item) => (
               <AccordionItem key={item.id} value={item.id} className="py-2">
-                <AccordionTrigger className="w-full text-left text-xl md:text-2xl font-semibold text-white bg-primary p-4 px-8 rounded-xl">
+                <AccordionTrigger className="w-full text-left text-xl md:text-2xl font-semibold text-white bg-primary p-4 px-8 rounded-xl cursor-pointer">
                   <div className="flex items-center justify-between gap-4">
                     <div>{item.question}</div>
                     <FaChevronDown className="h-6 md:h-4 w-6 md:w-4 text-white transition-transform duration-200 group-data-expanded:-rotate-180" />

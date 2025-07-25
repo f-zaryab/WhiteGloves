@@ -12,7 +12,7 @@ import { Button } from "../ui/button";
 const Navbar = () => {
   return (
     <div className="w-full flex justify-between items-center h-14 fixed top-8 z-50">
-      <div className="hidden sm:flex w-full justify-between items-center max-w-[1440px] mx-auto">
+      <div className="hidden sm:flex w-full justify-between items-center max-w-[600px] lg:max-w-[1440px] mx-auto">
         <NavigationMenu className="flex justify-between h-16 px-4 py-2 bg-white/40 max-w-[100%] backdrop-blur-3xl rounded-4xl">
           <Link href="/">
             <Image
@@ -43,7 +43,7 @@ const Navbar = () => {
             {/* Contact Us */}
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Button variant="default" asChild>
+                <Button variant="secondary" asChild>
                   <Link
                     href="#Contact"
                     className="!rounded-[25] hover:text-white"
