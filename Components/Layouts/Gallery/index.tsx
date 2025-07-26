@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryCard from "@/Components/galleryCard";
+import GalleryCard from "@/Components/GalleryCard";
 
 type GalleryProps = {
   card: {

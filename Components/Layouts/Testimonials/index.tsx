@@ -1,6 +1,6 @@
 import React from "react";
 import { InfiniteMovingCards } from "@/Components/client/InfiniteMovingCards";
-import TitleMain from "@/Components/titleMain";
+import TitleMain from "@/Components/TitleMain";
 
 type TestimonialsProps = {
   preTitle: string;

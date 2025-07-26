@@ -1,6 +1,6 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
-import TitleMain from "@/Components/titleMain";
+import TitleMain from "@/Components/TitleMain";
 import {
   Accordion,
   AccordionItem,
