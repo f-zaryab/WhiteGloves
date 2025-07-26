@@ -1,9 +1,11 @@
-import HeroBannerMain from "@/components/Layouts/HeroBannerMain";
-import WhyChooseUs from "@/components/Layouts/WhyChoose";
-import MessageOneSection from "@/components/Layouts/MessageBoxOne";
-import Gallery from "@/components/Layouts/Gallery";
-import FAQS from "@/components/Layouts/FAQs";
-import Testimonials from "@/components/Layouts/Testimonials";
+import HeroBannerMain from "../components/Layouts/HeroBannerMain";
+import WhyChooseUs from "../components/Layouts/WhyChoose";
+import MessageOneSection from "../components/Layouts/MessageBoxOne";
+import Process from "../components/Layouts/Process";
+import Gallery from "../components/Layouts/Gallery";
+import FAQS from "../components/Layouts/FAQs";
+import Testimonials from "../components/Layouts/Testimonials";
+import ContactUs from "../components/Layouts/ContactUs";
 import {
   HeroBannerText,
   GalleryItemsSection,
@@ -13,8 +15,6 @@ import {
   ProcessText,
   SiteDate,
 } from "@/contants";
-import ContactUs from "@/components/Layouts/ContactUs";
-import Process from "@/components/Layouts/Process";
 
 export const metadata = {
   title: SiteDate.homepage.page,
