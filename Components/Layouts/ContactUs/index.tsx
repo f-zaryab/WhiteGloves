@@ -64,7 +64,7 @@ const ContactUs = () => {
                       />
                       <div className="h-4">
                         {errors.firstName && (
-                          <span className="text-sm text-red-600">
+                          <span className="text-sm text-secondary">
                             {errors.firstName?.message}
                           </span>
                         )}
@@ -88,7 +88,7 @@ const ContactUs = () => {
                       />
                       <div className="h-4">
                         {errors.lastName && (
-                          <span className="text-sm text-red-600">
+                          <span className="text-sm text-secondary">
                             {errors.lastName?.message}
                           </span>
                         )}
@@ -112,7 +112,7 @@ const ContactUs = () => {
                       />
                       <div className="h-4">
                         {errors.email && (
-                          <span className="text-sm text-red-600">
+                          <span className="text-sm text-secondary">
                             {errors.email?.message}
                           </span>
                         )}
@@ -136,7 +136,7 @@ const ContactUs = () => {
                       />
                       <div className="h-4">
                         {errors.phone && (
-                          <span className="text-sm text-red-600">
+                          <span className="text-sm text-secondary">
                             {errors.phone?.message}
                           </span>
                         )}

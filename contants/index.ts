@@ -193,10 +193,6 @@ export const footer = {
   },
 };
 
-export const MessageOneSectionText = {
-  message: `"We Lift More Than Just Boxes — We Lift Stress."`,
-};
-
 export const GalleryItemsSection = [
   {
     id: "1",
