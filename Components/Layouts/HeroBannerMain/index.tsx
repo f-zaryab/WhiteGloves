@@ -7,8 +7,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel";
-import { TextEffect } from "@/components/motion-primitives/text-effect";
+} from "@/Components/ui/carousel";
+import { TextEffect } from "@/Components/motion-primitives/text-effect";
 
 type HeroBannerMainProps = {
   carouselItems: {

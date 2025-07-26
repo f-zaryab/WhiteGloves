@@ -1,9 +1,9 @@
 import React from "react";
-import AnimatedCardWrapper from "@/components/animatedCardWrapper";
-import AnimatedCardList from "@/components/animatedCardList";
+import AnimatedCardWrapper from "@/Components/animatedCardWrapper";
+import AnimatedCardList from "@/Components/animatedCardList";
 import { cn } from "@/lib/utils";
-import TitleMain from "@/components/titleMain";
-import CardPrimary from "@/components/cardPrimary";
+import TitleMain from "@/Components/titleMain";
+import CardPrimary from "@/Components/cardPrimary";
 
 type CoreValuesProps = {
   preTitle: string;

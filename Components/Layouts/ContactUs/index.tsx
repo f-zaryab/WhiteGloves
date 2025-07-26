@@ -4,8 +4,8 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import TitleMain from "@/components/titleMain";
-import { Button } from "@/components/ui/button";
+import TitleMain from "@/Components/titleMain";
+import { Button } from "@/Components/ui/button";
 
 export const contactFormSchema = z.object({
   firstName: z.string().min(1, "First Name is required."),

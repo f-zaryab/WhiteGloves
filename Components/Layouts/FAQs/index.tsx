@@ -1,12 +1,12 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
-import TitleMain from "@/components/titleMain";
+import TitleMain from "@/Components/titleMain";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
-} from "@/components/motion-primitives/accordion";
+} from "@/Components/motion-primitives/accordion";
 
 type FAQsProps = {
   preTitle: string;

@@ -1,11 +1,11 @@
-import HeroBannerMain from "../components/layouts/HeroBannerMain";
-import WhyChooseUs from "../components/layouts/WhyChoose";
-import MessageOneSection from "../components/layouts/MessageBoxOne";
-import Process from "../components/layouts/Process";
-import Gallery from "../components/layouts/Gallery";
-import FAQS from "../components/layouts/FAQs";
-import Testimonials from "../components/layouts/Testimonials";
-import ContactUs from "../components/layouts/ContactUs";
+import HeroBannerMain from "../Components/Layouts/HeroBannerMain";
+import WhyChooseUs from "../Components/Layouts/WhyChoose";
+import MessageOneSection from "../Components/Layouts/MessageBoxOne";
+import Process from "../Components/Layouts/Process";
+import Gallery from "../Components/Layouts/Gallery";
+import FAQS from "../Components/Layouts/FAQs";
+import Testimonials from "../Components/Layouts/Testimonials";
+import ContactUs from "../Components/Layouts/ContactUs";
 import {
   HeroBannerText,
   GalleryItemsSection,

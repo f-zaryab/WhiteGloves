@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Footer from "../Components/footer";
+import Navbar from "../Components/navbar";
 import { SiteDate } from "@/contants";
 import "./globals.css";
 
