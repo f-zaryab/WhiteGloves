@@ -4,7 +4,7 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import TitleMain from "@/components/TitleMain";
+import TitleMain from "@/components/titleMain";
 import { Button } from "@/components/ui/button";
 
 export const contactFormSchema = z.object({

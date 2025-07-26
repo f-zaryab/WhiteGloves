@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TitleMain from "@/components/TitleMain";
+import TitleMain from "@/components/titleMain";
 
 type WhyChooseUsProps = {
   preTitle: string;
