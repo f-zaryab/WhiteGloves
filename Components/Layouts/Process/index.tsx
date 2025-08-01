@@ -1,7 +1,6 @@
 import React from "react";
 import AnimatedCardWrapper from "@/Components/AnimatedCardWrapper";
 import AnimatedCardList from "@/Components/AnimatedCardList";
-import { cn } from "@/lib/utils";
 import TitleMain from "@/Components/TitleMain";
 import CardPrimary from "@/Components/CardPrimary";
 
@@ -14,18 +13,14 @@ type CoreValuesProps = {
     content: string;
     icon?: string;
   }[];
-  variant: "card-three" | "card-four";
 };
 
-const Process = ({ preTitle, title, cards, variant }: CoreValuesProps) => {
+const Process = ({ preTitle, title, cards }: CoreValuesProps) => {
   return (
     <section className="w-full flex flex-col justify-center items-center p-8 md:p-24">
       <TitleMain preTitle={preTitle} title={title} />
       <AnimatedCardList
-        classes={cn(
-          variant === "card-three" ? "md:grid-cols-3" : "md:grid-cols-4",
-          "grid grid-cols-1 gap-4 my-12"
-        )}
+        classes={"grid grid-cols-1 gap-4 my-12 md:grid-cols-2 xl:grid-cols-5"}
       >
         {cards.map((item, idx) => (
           <AnimatedCardWrapper key={item.id + idx}>

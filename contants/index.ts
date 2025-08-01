@@ -16,6 +16,15 @@ export const SiteDate = {
   },
 };
 
+export const HeroBannerSimpleText = {
+  title: "Hassle-free movers",
+  subTitle: "Lorem impsum lorem ipsum lorum ipsum",
+  img: {
+    src: "/temp_images/herobanner_01.png",
+    alt: "hero-banner_01",
+  },
+};
+
 export const HeroBannerText = [
   {
     id: "01",
@@ -46,8 +55,45 @@ export const HeroBannerText = [
   },
 ];
 
+export const OurServicesText = {
+  preTitle: "Our Services",
+  title: "We are more than a moving company.",
+  cards: [
+    {
+      id: "01",
+      title: "Short & Long-Term Storage",
+      content:
+        "Whether you’re between homes, traveling, or simply need extra space, White Gloves offers secure, climate controlled storage solutions tailored to your needs. Our short-term options are perfect for temporary transitions, while long term storage ensures your belongings are safe and easily accessible for extended periods. We handle pickup, packing, inventory management, and delivery so you don’t have to lift a finger.",
+    },
+    {
+      id: "02",
+      title: "Local Moves",
+      content:
+        "Moving within Dubai or the UAE? Our boutique approach to local relocations guarantees a seamless and stress-free experience. From studio apartments to luxury villas, our experienced team manages every detail from careful packing and labeling to secure transport and unpacking, so you can settle into your new space effortlessly.",
+    },
+    {
+      id: "03",
+      title: "International Relocations",
+      content:
+        "Relocating overseas can be overwhelming, but with White Gloves, you’re in expert hands. We provide end-to-end international moving solutions, including custom packing, documentation, shipping logistics, and coordination with global partners. Our team ensures your belongings travel safely and arrive on time no matter where in the world you’re headed.",
+    },
+    {
+      id: "04",
+      title: "Pre-Renovation Packing",
+      content:
+        "Preparing for a renovation? Protect your valuables and furniture with our specialized pre-renovation packing service. We carefully wrap, label, and store your items—keeping them organized and damage free until your home is ready. Our team works closely with your contractors and designers to ensure a smooth workflow with minimal disruption.",
+    },
+    {
+      id: "05",
+      title: "Furnishing, Artwork & TV Installations",
+      content:
+        "We go beyond moving. White Gloves offers expert assistance in setting up your home just the way you like it. From hanging artwork and mirrors to wall mounting TVs and arranging furniture, our team ensures every detail is thoughtfully placed. Whether you’re styling a new space or reimagining an existing one, we’re here to help you create a beautifully functional home.",
+    },
+  ],
+};
+
 export const WhyChooseText = {
-  preTitle: "WHY CHOOSE US?",
+  preTitle: "What makes us different?",
   title: "Because You Deserve a Moving Experience Without the Headaches",
   cards: [
     {
@@ -84,32 +130,39 @@ export const WhyChooseText = {
 };
 
 export const ProcessText = {
-  preTitle: "HOW IT WORKS?",
-  title: "Moving made easy in 4 simple steps",
+  preTitle: "HOW WE WORK?",
+  title:
+    "At White Gloves, every move is personal. Our process is designed to be simple, transparent, and tailored so you feel supported at every step.",
   cards: [
     {
       id: "01",
-      title: "Get in touch",
+      title: "Connection",
       content:
-        "Reach out via our website or call us directly. We’ll listen to your needs and gather the details of your move.",
+        "We begin with a conversation. Whether over the phone or in person, we take the time to truly understand your needs, timelines, and expectations. No forms, no call centers, just real people, real attention.",
     },
     {
       id: "02",
-      title: "Get a Clear Quote",
+      title: "Curation",
       content:
-        "No hidden fees. Just an honest, upfront estimate based on your exact needs.",
+        "You share photos or videos of your space, or we schedule an in-home consultation. This allows us to assess the volume, materials, access points, and any special handling requirements. It’s a thoughtful process because no two homes (or clients) are the same.",
     },
     {
       id: "03",
-      title: "Meet Your Moving Team",
+      title: "Clarity",
       content:
-        "Our reliable crew shows up on time, ready with all the tools and experience needed.",
+        "Based on your needs, we provide a clear, customized quote with transparent pricing. No hidden fees, no last-minute surprises just honest, upfront service designed to help you plan with confidence.",
     },
     {
       id: "04",
-      title: "Enjoy a Hassle-Free Move",
+      title: "Care",
       content:
-        "We take care of the heavy lifting, so you can enjoy the excitement of your new space.",
+        "Our trained team arrives on time and handles every item with the utmost respect. From fine furniture to sentimental pieces, we pack, lift, move, and transport everything with precision and care. Your belongings are treated as if they were our own.",
+    },
+    {
+      id: "05",
+      title: "Completion",
+      content:
+        "We don’t just deliver, we complete the experience. Whether you need help with unpacking, furniture placement, or hanging artwork and TVs, our team will leave your space set up, styled, and move in ready. It’s not done until you feel at home.",
     },
   ],
 };
@@ -235,3 +288,13 @@ export const GalleryItemsSection = [
     imageUrl: "/temp_images/gal_08.jpeg",
   },
 ];
+
+export const AboutAuthorText = {
+  title: "",
+  aboutText:
+    "I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company.",
+  image: {
+    src: "/temp_images/img_01.jpg",
+    alt: "ramsha-farooqui",
+  },
+};

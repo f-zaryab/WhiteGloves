@@ -7,6 +7,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/Components/ui/carousel";
 import { TextEffect } from "@/Components/motion-primitives/text-effect";
 
@@ -80,6 +82,12 @@ const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
             </CarouselItem>
           ))}
         </CarouselContent>
+
+        {/* Controls */}
+        <div className="w-full h-screen absolute top-0 left-0 hidden sm:block">
+          <CarouselPrevious className="absolute bottom-6 right-20 bg-secondary border-secondary shadow-2xl" />
+          <CarouselNext className="absolute bottom-6 right-8 bg-secondary border-secondary shadow-2xl" />
+        </div>
       </Carousel>
     </div>
   );

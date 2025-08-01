@@ -1,4 +1,5 @@
 import HeroBannerMain from "../Components/Layouts/HeroBannerMain";
+import OurServices from "../Components/Layouts/OurServices";
 import WhyChooseUs from "../Components/Layouts/WhyChoose";
 import MessageOneSection from "../Components/Layouts/MessageBoxOne";
 import Process from "../Components/Layouts/Process";
@@ -14,6 +15,7 @@ import {
   TestimonialText,
   ProcessText,
   SiteDate,
+  OurServicesText,
 } from "@/contants";
 
 export const metadata = {
@@ -27,11 +29,14 @@ export default function Home() {
       {/* -------------------- HeroBanner ---------------- */}
       <HeroBannerMain carouselItems={HeroBannerText} />
 
+      {/* ------------------- Our Services --------------- */}
+      <OurServices {...OurServicesText} />
+
       {/* ------------------- WhyChooseUs ---------------- */}
       <WhyChooseUs {...WhyChooseText} />
 
       {/* ---------------- Process Section --------------- */}
-      <Process variant="card-four" {...ProcessText} />
+      <Process {...ProcessText} />
 
       {/* ------------------ Gallery Section ------------- */}
       <Gallery card={GalleryItemsSection} />
