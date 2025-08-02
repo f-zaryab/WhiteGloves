@@ -21,7 +21,7 @@ const AnimatedTitle = ({
       className={cn(
         `${
           isSideHeading ? "w-full md:w-full" : "w-full sm:w-3/4 md:w-2/3"
-        } text-5xl font-normal text-primary mb-16`
+        } text-4xl md:text-5xl font-normal text-primary mb-4 md:mb-16`
       )}
     >
       {children}

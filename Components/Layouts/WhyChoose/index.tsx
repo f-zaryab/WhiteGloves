@@ -31,7 +31,7 @@ const WhyChooseUs = ({ preTitle, title, cards }: WhyChooseUsProps) => {
                 {item.title}
               </h2>
               <div className="w-full h-full relative">
-                <p className="absolute top-4 left-4 md:left-12 w-[80%] md:w-[30%] text-xl font-normal">
+                <p className="absolute top-4 left-4 md:left-12 w-[80%] md:w-[30%] text-[1.125rem] md:text-xl font-normal">
                   {item.description}
                 </p>
                 <Image

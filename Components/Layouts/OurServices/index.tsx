@@ -19,7 +19,7 @@ const OurServices = ({ preTitle, title, cards }: OurServicesProps) => {
   return (
     <section className="w-full flex flex-col justify-center items-center p-8 md:p-24">
       <TitleMain preTitle={preTitle} title={title} />
-      <AnimatedCardList classes="grid grid-rows-5 gap-4 my-12">
+      <AnimatedCardList classes="grid grid-rows-5 gap-4 my-4 md:my-12">
         {cards.map((item, idx) => (
           <div
             key={item.id + idx}

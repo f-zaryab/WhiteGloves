@@ -22,7 +22,7 @@ const TitleMain = ({
         `${isSticky ? "lg:sticky top-30" : ""} flex flex-col gap-2 w-full`
       )}
     >
-      <span className="flex justify-start items-center gap-4 text-2xl font-bold uppercase">
+      <span className="flex justify-start items-center gap-4 text-lg md:text-2xl font-bold uppercase">
         <FaDotCircle className="text-secondary" />
         {preTitle}
       </span>

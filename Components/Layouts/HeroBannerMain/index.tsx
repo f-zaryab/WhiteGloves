@@ -50,7 +50,7 @@ const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
                       as="h1"
                       per="char"
                       preset="fade"
-                      className="text-white text-5xl md:text-6xl leading-12 md:leading-16 font-semibold"
+                      className="text-white text-3xl md:text-6xl leading-8 md:leading-16 font-semibold"
                     >
                       {item.title}
                     </TextEffect>
