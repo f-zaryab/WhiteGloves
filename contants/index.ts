@@ -246,6 +246,19 @@ export const footer = {
   },
 };
 
+export const NavLinks = [
+  {
+    id: "01",
+    label: "About",
+    href: "/About",
+  },
+  {
+    id: "02",
+    label: "Contact",
+    href: "#Contact",
+  },
+];
+
 export const GalleryItemsSection = [
   {
     id: "1",

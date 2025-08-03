@@ -14,7 +14,7 @@ type HeroBannerProps = {
 const HeroBanner = ({ title, subTitle, img }: HeroBannerProps) => {
   return (
     <section className="bg-white w-full h-full">
-      <div className="overflow-hidden mx-auto h-[50rem] relative">
+      <div className="overflow-hidden mx-auto h-screen relative">
         <div className="absolute bottom-0 left-0 z-10 w-[97%] md:w-[50%] bg-white/5 backdrop-blur-md rounded-tr-[25rem]">
           <div className="py-4 px-12 md:px-24">
             <TextEffect
