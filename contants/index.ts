@@ -282,7 +282,7 @@ export const GalleryItemsSection = [
   },
   {
     id: "5",
-    title: "Ton’s of mobile mockup",
+    title: "",
     imageUrl: "/working/img_10.jpg",
   },
   {
@@ -305,9 +305,9 @@ export const GalleryItemsSection = [
 export const AboutAuthorText = {
   title: "",
   aboutText:
-    "I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company. I am Ramsha Farooqui and I am author and responsible for the company.",
+    "Before White Gloves had a name, we were simply helping families move, quietly, efficiently, and with great care. Over the past decade, we’ve stayed true to those values. The turning point came a year ago when I had to move homes myself. Despite being in the industry, I hired a well-known moving company, and the experience was frustrating. Items were damaged, the team was careless, language barrier was there, In short nothing felt smooth. When I spoke to my friends, I realized they had faced the same issues with other movers. That’s when the idea truly came together, to take the work I was already doing and turn it into a structured, professional brand. One that prioritizes care, calm, and quality in an industry where those things are too often missing. White Gloves was born out of that frustration but also out of a passion to do better. We now offer a boutique, hands-on moving experience for people who want peace of mind, not just packed boxes.",
   image: {
-    src: "/temp_images/img_01.jpg",
+    src: "/temp_images/author_01.jpeg",
     alt: "ramsha-farooqui",
   },
 };

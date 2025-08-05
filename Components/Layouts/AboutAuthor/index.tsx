@@ -18,7 +18,7 @@ const AboutAuthor = ({ aboutText, image }: AboutAuthorProps) => {
           <div className="flex justify-items-start items-center gap-2 mb-4">
             <Dot className="text-secondary stroke-[14px]" />
             <h2 className="text-2xl uppercase text-white font-bold">
-              Who am i?
+              Woman behind the vision
             </h2>
           </div>
           <p className="text-lg md:text-[1.25rem] xl:text-[1.5rem]">
@@ -31,7 +31,7 @@ const AboutAuthor = ({ aboutText, image }: AboutAuthorProps) => {
             alt={image.alt}
             width={0}
             height={0}
-            className="w-full h-auto object-cover rounded-3xl"
+            className="w-full h-auto object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
