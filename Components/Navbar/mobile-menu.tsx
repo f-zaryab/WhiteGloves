@@ -72,14 +72,26 @@ const MobileMenu = ({
             ))}
           </div>
           <div className="my-4">
-            <div className="flex gap-4 rounded-3xl p-2">
+            <div className="flex flex-col gap-4 rounded-3xl p-2">
               <div className="flex flex-col justify-items-start text-left">
-                <p className="text-sm md:text-lg font-normal mb-2">Email Us</p>
+                <p className="text-sm md:text-lg font-normal">Email us</p>
                 <Link
                   href="mailto:Whitegloves.cc@gmail.com"
                   className="text-sm md:text-lg font-bold"
                 >
                   Whitegloves.cc@gmail.com
+                </Link>
+              </div>
+
+              <div className="flex flex-col justify-items-start text-left">
+                <p className="text-sm md:text-lg font-normal">
+                  Connect on a call
+                </p>
+                <Link
+                  href="tel:+971501773013"
+                  className="text-sm md:text-lg font-bold"
+                >
+                  +971501773013
                 </Link>
               </div>
             </div>

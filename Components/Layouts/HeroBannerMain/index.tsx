@@ -73,8 +73,8 @@ const HeroBannerMain = ({ carouselItems }: HeroBannerMainProps) => {
                     alt={item.img.alt}
                     width={0}
                     height={0}
-                    className="h-full lg:h-auto w-full object-cover block object-center opacity-90 mask-radial-farthest-side mask-radial-from-100% mask-radial-at-[80%_15%]"
-                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="h-full lg:h-screen w-full object-cover object-[0%_100%] block opacity-90 mask-radial-farthest-side mask-radial-from-100% mask-radial-at-[80%_15%]"
+                    sizes="(max-width: 768px) 100vw, 90vw"
                     priority
                   />
                 </div>

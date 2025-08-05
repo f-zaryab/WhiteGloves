@@ -40,7 +40,7 @@ export const HeroBannerText = [
     title: "Stress-Free Moving, Every Step of the Way",
     subTitle: "Lorem impsum lorem ipsum lorum ipsum",
     img: {
-      src: "/temp_images/herobanner_02.jpg",
+      src: "/working/img_14.jpg",
       alt: "hero-banner_01",
     },
   },

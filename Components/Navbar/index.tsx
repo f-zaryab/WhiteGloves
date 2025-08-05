@@ -60,7 +60,7 @@ const Navbar = () => {
                 <Button variant="default" asChild>
                   <Link
                     href="/About"
-                    className="!rounded-[25] hover:text-white"
+                    className="!rounded-[25] hover:text-primary px-6"
                   >
                     About us
                   </Link>
@@ -71,16 +71,25 @@ const Navbar = () => {
             {/* Contact Us */}
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Button variant="secondary" asChild>
+                <Button variant="default" asChild>
                   <Link
                     href="#Contact"
-                    className="!rounded-[25] hover:text-white"
+                    className="!rounded-[25] hover:text-primary px-6"
                   >
                     Conact us
                   </Link>
                 </Button>
               </NavigationMenuLink>
             </NavigationMenuItem>
+            {/* Call CTA */}
+            <Button variant="secondary" asChild>
+              <Link
+                href="tel:+971501773013"
+                className="!rounded-[25] hover:text-white text-[1rem]"
+              >
+                +97 1501 773013
+              </Link>
+            </Button>
           </NavigationMenuList>
         </NavigationMenu>
       </div>
