@@ -262,43 +262,43 @@ export const NavLinks = [
 export const GalleryItemsSection = [
   {
     id: "1",
-    title: "Best website collections",
-    imageUrl: "/temp_images/gal_01.png",
+    title: "packing and wrapping",
+    imageUrl: "/working/img_02.jpg",
   },
   {
     id: "2",
-    title: "Block of UI kit collections",
-    imageUrl: "/temp_images/gal_02.png",
+    title: "Dedication, Responsibility",
+    imageUrl: "/working/img_01.jpg",
   },
   {
     id: "3",
-    title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_03.png",
+    title: "Dismatling tv",
+    imageUrl: "/working/img_04.jpg",
   },
   {
     id: "4",
-    title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_04.png",
+    title: "All boxed up",
+    imageUrl: "/working/img_03.jpg",
   },
   {
     id: "5",
     title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_05.png",
+    imageUrl: "/working/img_10.jpg",
   },
   {
     id: "6",
-    title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_06.png",
+    title: "Bubble packaging where needed",
+    imageUrl: "/working/img_08.jpg",
   },
   {
     id: "7",
-    title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_07.png",
+    title: "Sofa, ready to go",
+    imageUrl: "/working/img_09.jpg",
   },
   {
     id: "8",
-    title: "Ton’s of mobile mockup",
-    imageUrl: "/temp_images/gal_08.jpeg",
+    title: "Home gym items needs special care",
+    imageUrl: "/working/img_12.jpg",
   },
 ];
 

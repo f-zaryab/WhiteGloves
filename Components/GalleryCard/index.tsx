@@ -9,7 +9,7 @@ type GalleryCardProps = {
 const GalleryCard = ({ title, imageUrl }: GalleryCardProps) => {
   return (
     <div
-      className="overflow-hidden bg-cover rounded-4xl cursor-pointer h-full min-h-96 group"
+      className="overflow-hidden bg-cover rounded-4xl cursor-pointer h-full min-h-96 group bg-center"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="flex justify-items-start items-end p-8 w-full h-full transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-primary/60 group-hover:opacity-100">
