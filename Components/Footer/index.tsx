@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="text-white font-medium text-lg my-4">
           Copyright © White Gloves | Designed and developed by{" "}
-          <Link href={footer.link.label} className="underline">
+          <Link href={footer.link.href} className="underline">
             {footer.link.label}
           </Link>
         </div>
