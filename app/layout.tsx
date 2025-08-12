@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import { SiteDate } from "@/contants";
 import "./globals.css";
+import ScrollTop from "@/Components/ScrollTop";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <ScrollTop />
       </body>
     </html>
   );

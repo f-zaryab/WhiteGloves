@@ -13,7 +13,7 @@ const GalleryCard = ({ title, imageUrl }: GalleryCardProps) => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="flex justify-items-start items-end p-8 w-full h-full transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-primary/60 group-hover:opacity-100">
-        <h2 className="mt-4 text-xl md:text-2xl font-semibold text-white capitalize">
+        <h2 className="mt-4 text-xl md:text-2xl font-semibold text-white">
           {title}
         </h2>
       </div>

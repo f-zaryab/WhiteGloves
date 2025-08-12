@@ -1,24 +1,26 @@
 export const SiteDate = {
   homepage: {
-    title: "WhiteGloves",
+    title: "Expert Movers and Packers in Dubai – Move with Confidence",
     href: "/",
     logo: "",
-    description: "Best movers at your doorstep",
+    description:
+      "Professional movers and packers in Dubai delivering smooth, hassle-free relocations and affordable, secure storage solutions you can always rely on. Book now!",
     page: "Home Page | WhiteGloves",
-    keyword: ["keyword1", "keyword2", "keyword3", "keyword4"],
+    keyword: ["Movers", "Packers", "Dubai"],
   },
   about: {
-    title: "WhiteGloves",
+    title: "About Us | Leading Furniture Movers in Dubai You Can Trust",
     href: "/about",
     logo: "",
-    description: "Best movers in town",
+    description:
+      "Experience the difference with our woman-founded boutique moving company. Dubai’s trusted furniture movers known for professionalism and personalized service.",
     page: "About Page",
   },
 };
 
 export const HeroBannerSimpleText = {
   title: "Hassle-free movers",
-  subTitle: "Lorem impsum lorem ipsum lorum ipsum",
+  subTitle: "A Boutique Company that Moves you.",
   img: {
     src: "/temp_images/herobanner_01.png",
     alt: "hero-banner_01",
@@ -29,16 +31,16 @@ export const HeroBannerText = [
   {
     id: "01",
     title: "Hassle-free movers",
-    subTitle: "Lorem impsum lorem ipsum lorum ipsum",
+    subTitle: "A Boutique Company that Moves you.",
     img: {
-      src: "/temp_images/herobanner_01b.jpg",
-      alt: "hero-banner_01",
+      src: "/temp_images/herobanner_04.jpg",
+      alt: "hero-banner_04",
     },
   },
   {
     id: "02",
-    title: "Stress-Free Moving, Every Step of the Way",
-    subTitle: "Lorem impsum lorem ipsum lorum ipsum",
+    title: "Movers, not shakers.",
+    subTitle: "Boutique practices, in moving.",
     img: {
       src: "/working/img_14.jpg",
       alt: "hero-banner_01",
@@ -47,9 +49,9 @@ export const HeroBannerText = [
   {
     id: "03",
     title: "Professional. Punctual. Peace of Mind.",
-    subTitle: "Lorem impsum lorem ipsum lorum ipsum",
+    subTitle: "Gold standard, in moving.",
     img: {
-      src: "/temp_images/herobanner_03.jpg",
+      src: "/temp_images/herobanner_05.jpg",
       alt: "hero-banner_01",
     },
   },
@@ -98,9 +100,9 @@ export const WhyChooseText = {
   cards: [
     {
       id: "01",
-      title: "Trusted & Experienced Crew",
+      title: "Boutique Approach",
       description:
-        "Our professional movers treat your belongings like their own—with care and precision.",
+        "No mass market operations. Each client gets full attention.",
       img: {
         src: "/temp_images/why_01.jpg",
         alt: "Trusted & Experienced Crew",
@@ -108,9 +110,8 @@ export const WhyChooseText = {
     },
     {
       id: "02",
-      title: "Affordable, Transparent",
-      description:
-        "No hidden fees. No last-minute surprises. Just honest rates tailored to your needs.",
+      title: "Personalised planning",
+      description: "No auto-quotes. We listen, plan and move with care.",
       img: {
         src: "/temp_images/why_01.jpg",
         alt: "Trusted & Experienced Crew",
@@ -118,9 +119,17 @@ export const WhyChooseText = {
     },
     {
       id: "03",
-      title: "Tailored to You",
-      description:
-        "From packing and disassembly to storage and setup, we customize every move to suit your lifestyle.",
+      title: "Women-founded, detail-driven",
+      description: "Built on empathy, precision and professionalism",
+      img: {
+        src: "/temp_images/why_01.jpg",
+        alt: "Trusted & Experienced Crew",
+      },
+    },
+    {
+      id: "04",
+      title: "Trust over volume",
+      description: "Fewer client, more quality. Every single time.",
       img: {
         src: "/temp_images/why_01.jpg",
         alt: "Trusted & Experienced Crew",
@@ -198,44 +207,31 @@ export const TestimonialText = {
     {
       id: "01",
       quote:
-        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
-      name: "XYZ1",
-      title: "housewife",
+        "Breath of fresh air in this dog eat dog space. Clear communication, no variation in pricing and an end to end solution. Highly recommended.",
+      name: "Umair Nasir",
+      title: "General Manager, The Agency",
     },
     {
       id: "02",
       quote:
-        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
-      name: "XYZ2",
-      title: "housewife",
+        "On time and no surprises which is a good thing. Helped a lot while moving after we were done with our renovating.",
+      name: "May Hannah",
+      title: undefined,
     },
     {
       id: "03",
       quote:
-        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
-      name: "XYZ3",
-      title: "housewife",
-    },
-    {
-      id: "04",
-      quote:
-        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
-      name: "XYZ4",
-      title: "housewife",
-    },
-    {
-      id: "05",
-      quote:
-        "Their service is superb. Very punctual and nothing broke during shifting. Would definitly recommend 10/10",
-      name: "XYZ5",
-      title: "housewife",
+        "Stored my stuff for 2 months. Came back and they set it up scratch less. Clean service, recommended.",
+      name: "Glenn smith",
+      title: undefined,
     },
   ],
 };
 
 export const footer = {
   title: "White Gloves",
-  subtitle: "Copyright © White Gloves | Designed by CodeBeCrafted",
+  subtitle: "Copyright © White Gloves | Designed and developed by ",
+  link: { label: "CodeBeCrafted", href: "https://www.codebecrafted.com/" },
   instagram: {
     icon: "https://firebasestorage.googleapis.com/v0/b/icon-finder-91d39.appspot.com/o/icons%2Fsocial%2Finstagram-square-social.svg?alt=media&token=30e3bea2-e4b5-47e2-9245-ac39ba03cfbe",
     instagramLink: "/",
@@ -262,7 +258,7 @@ export const NavLinks = [
 export const GalleryItemsSection = [
   {
     id: "1",
-    title: "packing and wrapping",
+    title: "Packing and wrapping",
     imageUrl: "/working/img_02.jpg",
   },
   {
@@ -278,12 +274,12 @@ export const GalleryItemsSection = [
   {
     id: "4",
     title: "All boxed up",
-    imageUrl: "/working/img_03.jpg",
+    imageUrl: "/working/img_16b.jpg",
   },
   {
     id: "5",
-    title: "",
-    imageUrl: "/working/img_10.jpg",
+    title: "Storage facility",
+    imageUrl: "/working/img_15b.jpeg",
   },
   {
     id: "6",

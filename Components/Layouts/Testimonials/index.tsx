@@ -9,7 +9,7 @@ type TestimonialsProps = {
     id: string;
     quote: string;
     name: string;
-    title: string;
+    title?: string;
   }[];
 };
 

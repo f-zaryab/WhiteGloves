@@ -2,6 +2,7 @@
 import React, { useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { IoIosCall } from "react-icons/io";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -87,6 +88,7 @@ const Navbar = () => {
                 href="tel:+971501773013"
                 className="!rounded-[25] hover:text-white text-[1rem]"
               >
+                <IoIosCall className="w-5! h-5!"/>
                 +97 1501 773013
               </Link>
             </Button>
