@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar";
 import { SiteDate } from "@/contants";
 import "./globals.css";
 import ScrollTop from "@/Components/ScrollTop";
+import { Toaster } from "@/Components/ui/sonner";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -36,6 +37,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <ScrollTop />
+        <Toaster richColors position="top-right" />
       </body>
     </html>
   );

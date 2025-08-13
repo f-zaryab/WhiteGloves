@@ -96,7 +96,8 @@ export const OurServicesText = {
 
 export const WhyChooseText = {
   preTitle: "What makes us different?",
-  title: "Because You Deserve a Moving Experience Without the Headaches",
+  title:
+    "Our Philosophy: You deserve a moving experience without the headaches.",
   cards: [
     {
       id: "01",

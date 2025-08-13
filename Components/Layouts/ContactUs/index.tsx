@@ -1,9 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { toast } from "sonner";
 import TitleMain from "@/Components/TitleMain";
 import { Button } from "@/Components/ui/button";
 
@@ -21,12 +22,45 @@ const ContactUs = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<IFormInput>({
     mode: "all",
     resolver: zodResolver(contactFormSchema),
   });
 
-  const onSubmitForm: SubmitHandler<IFormInput> = (data) => console.log(data);
+  const [loading, setLoading] = useState(false);
+
+  const onSubmitForm: SubmitHandler<IFormInput> = async (data) => {
+    setLoading(true);
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
+          ...data,
+        }),
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        toast.success("Message sent successfully!");
+        reset();
+      } else {
+        toast.error("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Network error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <section
@@ -150,8 +184,9 @@ const ContactUs = () => {
                     type="submit"
                     variant="secondary"
                     className="px-6 py-4"
+                    disabled={loading}
                   >
-                    Submit form
+                    {loading ? "Sending..." : "Submit form"}
                   </Button>
                 </div>
               </form>

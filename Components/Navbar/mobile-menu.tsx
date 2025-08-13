@@ -91,7 +91,7 @@ const MobileMenu = ({
                   href="tel:+971501773013"
                   className="text-sm md:text-lg font-bold"
                 >
-                  +971501773013
+                  +971 501773013
                 </Link>
               </div>
             </div>

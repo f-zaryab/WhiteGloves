@@ -85,11 +85,11 @@ const Navbar = () => {
             {/* Call CTA */}
             <Button variant="secondary" asChild>
               <Link
-                href="tel:+971501773013"
+                href="tel:+971 501773013"
                 className="!rounded-[25] hover:text-white text-[1rem]"
               >
-                <IoIosCall className="w-5! h-5!"/>
-                +97 1501 773013
+                <IoIosCall className="w-5! h-5!" />
+                +971 501773013
               </Link>
             </Button>
           </NavigationMenuList>
