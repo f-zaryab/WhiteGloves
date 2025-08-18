@@ -21,6 +21,9 @@ import {
 export const metadata = {
   title: SiteDate.homepage.page,
   description: SiteDate.homepage.description,
+  alternates: {
+    canonical: "https://www.whitegloves.cc/",
+  },
 };
 
 export default function Home() {

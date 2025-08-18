@@ -2,10 +2,14 @@ import React from "react";
 import AboutAuthor from "@/Components/Layouts/AboutAuthor";
 import ContactUs from "@/Components/Layouts/ContactUs";
 import HeroBanner from "@/Components/Layouts/HeroBanner";
-import { AboutAuthorText, HeroBannerSimpleText } from "@/contants";
+import { AboutAuthorText, HeroBannerSimpleText, SiteDate } from "@/contants";
 
 export const metadata = {
   title: "About us",
+  description: SiteDate.about.description,
+  alternates: {
+    canonical: "https://www.whitegloves.cc/about-us",
+  },
 };
 
 const AboutPage = () => {

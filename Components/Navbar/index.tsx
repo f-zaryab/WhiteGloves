@@ -60,7 +60,7 @@ const Navbar = () => {
               <NavigationMenuLink asChild>
                 <Button variant="default" asChild>
                   <Link
-                    href="/About"
+                    href="/about-us"
                     className="!rounded-[25] hover:text-primary px-6"
                   >
                     About us

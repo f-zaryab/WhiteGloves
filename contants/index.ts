@@ -247,7 +247,7 @@ export const NavLinks = [
   {
     id: "01",
     label: "About",
-    href: "/About",
+    href: "/about-us",
   },
   {
     id: "02",
