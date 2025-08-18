@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://whitegloves.cc/sitemap.xml",
+    sitemap: "https://www.whitegloves.cc/sitemap.xml",
   };
 }
